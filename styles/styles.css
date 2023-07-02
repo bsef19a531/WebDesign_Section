@@ -1,0 +1,177 @@
+:root {
+    --primary-base: #f3f373;
+    --secondary-base: #ffffa5;
+    --white-base: #f2f2e2;
+    --greenish-yellow: #cccc1d;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Entire Section Container */
+
+.base {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 500px;
+    background-color: var(--white-base);
+    margin: 0 auto;
+
+}
+
+/* Upper Section Container */
+.upper-base {
+    background-color: var(--white-base);
+    /* display: flex; */
+    height: 255px;
+    position: relative;
+}
+
+.top-right-upper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--primary-base);
+    height: 55%;
+    width: 35%;
+
+}
+
+.bottom-left-upper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-base);
+    height: 52%;
+    width: 36%;
+
+}
+
+
+/* Lower Section Container */
+.lower-base {
+    background-color: var(--primary-base);
+    /* display: flex; */
+    height: 400px;
+    position: relative;
+}
+
+.top-right-lower {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--secondary-base);
+    height: 6%;
+    width: 25%;
+
+}
+
+.bottom-left-lower {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--secondary-base);
+    height: 30%;
+    width: 60%;
+
+}
+
+.upper-title-container {
+    position: absolute;
+    top: 39%;
+    left: 34%;
+    z-index: 1;
+}
+
+.lower-title-container {
+    position: absolute;
+    z-index: 1;
+    top: 9.8%;
+    left: 12%;
+}
+
+.upper-para {
+    position: absolute;
+    width: 27%;
+    right: 23%;
+    bottom: 18%;
+}
+
+.pointer {
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.inner-pointer {
+    background: rgba(255, 255, 255, 1);
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+#bag-pointer {
+    top: -39%;
+    left: 21%;
+
+}
+
+#glasses-pointer {
+    top: -136%;
+    left: 55%;
+}
+
+#shoulder-pointer {
+    top: -91%;
+    left: 68%;
+}
+
+#belt-pointer {
+    top: -40%;
+    left: 53%;
+}
+
+#hat-pointer {
+    top: 16%;
+    left: 71%;
+}
+
+#leg-pointer {
+    top: 45%;
+    left: 42%;
+}
+
+.slider-button-group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.slider-button {
+    flex: 1;
+    width: 100%;
+    margin: 0px 1px;
+    height: 2px;
+    background-color: black;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.slider-button:hover {
+    opacity: 1;
+}
+
+.slider-button-active {
+    opacity: 1;
+}

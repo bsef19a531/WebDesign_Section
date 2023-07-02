@@ -1,0 +1,49 @@
+.sliding-text {
+    overflow: hidden;
+    position: absolute;
+    font-size: 1.75rem;
+}
+
+.sliding-top {
+    top: 0;
+}
+
+.sliding-bottom {
+    bottom: 0;
+    width: 100%
+}
+
+.sliding-text span {
+    display: inline-block;
+    white-space: nowrap;
+    color: var(--white-base);
+    text-shadow: -0.3px -0.3px 0 var(--greenish-yellow), 0.3px -0.3px 0 var(--greenish-yellow), -0.3px 0.3px 0 var(--greenish-yellow), 0.3px 0.3px 0 var(--greenish-yellow);
+}
+
+#text-anim-top {
+    animation: slideRightTop 10s linear infinite;
+}
+
+#text-anim-bottom {
+    animation: slideRightBottom 10s linear infinite;
+}
+
+@keyframes slideRightTop {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slideRightBottom {
+    0% {
+        transform: translateX(-45%);
+    }
+
+    100% {
+        transform: translateX(145%);
+    }
+}

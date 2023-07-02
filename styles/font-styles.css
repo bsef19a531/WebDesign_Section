@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Royalia;
+    src: url(./../fonts/Royalia.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: UnitSlabOT;
+    src: url(./../fonts/UnitSlabOT.ttf);
+}
+
+@font-face {
+    font-family: FFUnitBold;
+    src: url(./../fonts/FFUnitProBold.otf);
+}
+
+@font-face {
+    font-family: FFUnitMedium;
+    src: url(./../fonts/FFUnitProMedium.otf);
+}
+
+@font-face {
+    font-family: FFUnit;
+    src: url(./../fonts/FFUnitProRegular.otf);
+}
+
+@font-face {
+    font-family: FFUnitThin;
+    src: url(./../fonts/FFUnitProThin.otf);
+}
+
+#bottom-left-signature {
+    font-family: Royalia;
+    position: relative;
+    top: 40%;
+    left: 44%;
+    z-index: 1;
+    font-size: 1.5rem;
+}
+
+
+.title {
+    padding: 0;
+    margin: 0;
+    font-family: FFUnit;
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+#main-title {
+    font-family: FFUnitThin;
+}
+
+#sub-title {
+    font-family: FFUnit;
+}
+
+.upper-para p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.24rem;
+    font-family: sans-serif;
+    color: gray;
+    line-height: 1.6;
+}

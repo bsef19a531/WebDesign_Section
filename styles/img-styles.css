@@ -1,0 +1,28 @@
+#modal-1-img {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    height: 250%;
+    width: 83%;
+    bottom: 167%;
+}
+
+#modal-2-img {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 116%;
+    height: 147%;
+    width: 77%;
+}
+
+#modal-3-img {
+    margin: 0 auto;
+    display: block;
+    /* max-width: 100%;
+    max-height: 100%; */
+    position: relative;
+    top: 12%;
+    height: 100%;
+    width: 80%;
+}
